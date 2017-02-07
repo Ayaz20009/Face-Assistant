@@ -1,0 +1,65 @@
+html,body{
+    height:100%;
+    width: 100%;
+    font-family: 'Nixie One', cursive;
+}
+/* cover */
+img{
+    max-width: 100%;
+}
+#cover{
+    background: #222 url('/static/images/newback.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cover-caption{
+   width: 100%;
+   justify-content: center;
+    align-items: center;
+}
+#cover-caption form{
+    display: flex;
+    justify-content: center;
+}
+.section-content{
+    padding-top: 50px;
+}
+.section-content h2,p{
+    display: flex;
+    justify-content:center;
+}
+.card{
+    padding-left: 10px;
+    border: none;
+}
+#about{
+    background: url("/static/images/city.jpg") top center no-repeat;
+    background-size: cover;
+}
+.about-text{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+nav{
+    height: 80px;
+    color: white;
+}
+nav a {
+    color: #f7f7f9;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 15px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}

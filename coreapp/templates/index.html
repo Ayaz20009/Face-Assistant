@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+{% block title %} Face Assistant {% endblock %}
+
+
+{% block content %}
+    <nav class="navbar navbar-toggleable-md fixed-top navbar-dark bg-transparent navbar-full" id="#nav-main">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">What we do</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="containter">
+                <div class="col-sm-12">
+                    <h1 class="display-3">Face Assistant</h1>
+                    <p class="lead">Upload picture to find people</p>
+                    <form action="" class="form-inline">
+                      <label class="custom-file">
+                          <input type="file" id="file" class="custom-file-input">
+                          <span class="custom-file-control"></span>
+                        </label>
+                    </form>
+                    <br>
+                    <br>
+                    <a href="#what-we-do" class="btn btn-outline-secondary btn-sm" role="button">&darr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="what-we-do">
+        <div class="section-content">
+            <div class="container">
+                <div id="whatwedo">
+                    <h2>What we do?</h2>
+                    <p class="lead">When you see someone you know, the easiest way to identify them is by their face but not everyone
+                        can do this. About 2 percent of our world population is suffering from this condition called
+                        Prosopagnosia. Face Assistant is an application developed for three platforms to help people
+                        suffering from Prosopagnosia to identify faces quickly.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-group">
+                            <div class="card">
+                                    <img class="card-img-top" src="/static/images/googleglass.jpg" alt="Card image cap">
+                                <div class="card-block">
+                                    <h4 class="card-title" style="padding-top: 40px;">Google Glass</h4>
+                                    <p class="card-text">Just with a single click you see the information of the person.
+                                    which includes the Name, Your Relationship to that person and
+                                        the last time you seen that person </p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                    <img class="card-img-top" src="/static/images/android.jpg" alt="Card image cap">
+                                <div class="card-block">
+                                    <h4 class="card-title">Android</h4>
+                                    <p class="card-text">Upload an Image of the person you need assistance with and Face Assistant will
+                                    provide you with the Name, Relationship and Last time you meet</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                    <img class="card-img-top" src="/static/images/web.jpg" alt="Card image cap">
+                                <div class="card-block">
+                                    <h4 class="card-title">Website</h4>
+                                    <p class="card-text">Website works similar to the Android application, upload the
+                                    image and see the results</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About us</h3>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at commodi, culpa fugiat ipsum nulla quia quidem! A commodi dolores error est eum, fugiat optio quaerat quasi quisquam totam, vitae.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, consectetur deserunt doloremque iure libero nulla officia quo sequi sit ullam. Consequatur consequuntur dolore officia omnis repudiandae rerum ullam, veniam voluptas.
+                        </p>
+                        <h5>Follow us on the web</h5>
+                        <a href="" class="btn btn-sm btn-outline-secondary">twitter</a>
+                        <a href="" class="btn btn-sm btn-outline-secondary">facebook</a>
+                        <a href="" class="btn btn-sm btn-outline-secondary">youtube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="section-content">
+            <div class="container">
+               <h3>Latest news</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aspernatur assumenda aut dolor doloremque doloribus error facilis fugiat ipsam iure optio perferendis recusandae rem repellendus, sequi totam voluptatem. Delectus.</p>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="card-columns">
+                              <div class="card">
+                                <img class="card-img-top img-fluid" src="/static/images/card1.png" alt="Card image cap">
+                                <div class="card-block">
+                                  <h4 class="card-title">Information About Prosopagnosia</h4>
+                                  <p class="card-text">Prosopagnosia (also known as 'face blindness') refers to a severe
+                                      deficit in recognizing familiar people from their face. While some people report a
+                                      very selective impairment that only influences the recognition of faces, others
+                                      find the deficit extends to the recognition of other stimuli, such as objects,
+                                      cars, or animals.</p>
+                                </div>
+                              </div>
+                            <footer>
+                                    <small class="text-muted">
+                                      Center for Face Processing Disorders <cite title="Source Title">
+                                        <a href="https://prosopagnosiaresearch.org/index/information">Information About
+                                        Prospagnosia</a></cite>
+                                    </small>
+                                  </footer>
+                            <hr>
+                              <div class="card p-3">
+                                <blockquote class="card-block card-blockquote">
+                                  <p>Prosopagnosia, also called face blindness, is an impairment in the recognition of
+                                      faces. It is often accompanied by other types of recognition impairments (place
+                                      recognition, car recognition, facial expression of emotion, etc.) though sometimes
+                                      it appears to be restricted to facial identity.</p>
+                                  <footer>
+                                    <small class="text-muted">
+                                      Prospagnosia Research Centers <cite title="Source Title"><a href="https://www.faceblind.org/research/">Face Blindness</a></cite>
+                                    </small>
+                                  </footer>
+                                </blockquote>
+                              </div>
+                            <hr>
+                              <div class="card">
+                                <img class="card-img-top img-fluid" src="/static/images/check.jpg" alt="Card image cap">
+                                <div class="card-block">
+                                  <h4 class="card-title">Kinds of Face Blindness</h4>
+                                  <p class="card-text">Researchers recognize two types of prosopagnosia—a rare, acquired
+                                      type, and a more common form called developmental prosopagnosia.</p>
+                                    <footer>
+                                    <small class="text-muted">
+                                      Julie Leibach <cite title="Source Title">
+                                        <a href="https://www.faceblind.org/research/">Face blindness, or prosopagnosia,
+                                            is more than just “being bad with faces.”</a></cite>
+                                    </small>
+                                  </footer>
+                                </div>
+                              </div>
+                              <div class="card card-inverse card-primary p-3 text-center">
+                                <blockquote class="card-blockquote">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                                  <footer>
+                                    <small>
+                                      Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </small>
+                                  </footer>
+                                </blockquote>
+                              </div>
+                              <div class="card text-center">
+                                <div class="card-block">
+                                  <h4 class="card-title">Card title</h4>
+                                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img class="card-img img-fluid" src="/static/images/computer.jpg" alt="Card image">
+                              </div>
+                              <div class="card p-3 text-right">
+                                <blockquote class="card-blockquote">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                  <footer>
+                                    <small class="text-muted">
+                                      Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </small>
+                                  </footer>
+                                </blockquote>
+                              </div>
+                              <div class="card">
+                                <div class="card-block">
+                                  <h4 class="card-title">Card title</h4>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+{% endblock %}
